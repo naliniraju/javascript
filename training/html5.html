@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <script>
+
+        function dragStarted(){
+            alert("event started to drag!!!");
+        }
+    </script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+<body>
+        <input type="color"><br><br>
+    <video width="300px" height="400px" preload="auto" controls>
+        <source src="mov_bbb.mp4" type="video/mp4"/>
+    </video><br>
+
+    
+
+    <audio width="500px" height="400px" controls>
+        <source src="Animals Martin Garrix (Official Video).mp3" type="audio/mp3"/>
+    </audio>
+
+
+    <audio width="500px" height="400px" controls>
+        <source src="Animals Martin Garrix (Official Video).mp3" type="audio/mp3"/>
+    </audio>
+
+
+    <div style="width:200px; height: 200px; border: 1px solid" draggable="true" ondragstart="dragStarted()" ></div>
+
+
+    <svg width="300px;" height="400px;">
+        <circle cx="50" cy="50" r="50" fill="red" stroke="green" stroke-width="3">
+        </circle>
+    </svg>
+
+
+    <svg width="300px;" height="400px;">
+        <rect width="100px" height="100px"></rect>
+    </svg>
+
+
+    <svg width="300px;" height="400px;">
+        <line x0="0" y0="1" x1="100" y2="10" stroke="red" stroke-width="1" style="stroke:blue;stroke-width:1px;"></line>
+    </svg>
+
+    <svg width="300px;" height="400px;">
+        <polygon point="0,0,0,0,20,20,20,20,40,60" stroke="red" stroke-width="1"></polygon>
+    </svg>
+
+</body>
+</html>
