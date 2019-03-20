@@ -1,10 +1,10 @@
-var di;
-function arraydemo(){
- 
+"use strict"
 
-    
+function arraydemo(){
+     
  function item(id,name,adrs){
-    
+    var di;
+
 di=id;
 this.name=name;
 this.adrs=adrs;

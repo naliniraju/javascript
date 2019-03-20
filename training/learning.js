@@ -20,12 +20,12 @@ function checkIndexDB(){
 
 var name="Greater Coder";
 
-var gradeA = 90;
-var gradeB = 80;
-var gradeC = 70;
-var gradeD = 60;
-var gradeE = 50;
-var gradeF = 40;
+// var gradeA = 90;
+// var gradeB = 80;
+// var gradeC = 70;
+// var gradeD = 60;
+// var gradeE = 50;
+// var gradeF = 40;
 
 
 function getDetails(marks){
