@@ -62,7 +62,37 @@ function buildObject(){
 }
 
 
+class Employee{
+    constructor(id,name){
+        this.id = id;
+        this.name=name;
+    }
+    getDetails(){
+        var arr = [];
+        arr[0]=this.id;
+        arr[1]=this.name;
+        return arr;
+    }
 
+    static fetchDetails(){
+        document.write("This is static Block !!");   
+    }
 
+    setName(name){
+        this.name = name;
+    }
+    getName(){
+        return name;
+    }
+}
+
+function getEmployeeDetails(){
+    var emp = new Employee(1001,"Santhosh");
+    var array = emp.getDetails();
+    array.forEach(function(value){
+        document.write("Employee :: "+value);
+    })
+    Employee.fetchDetails();
+}
 
 
