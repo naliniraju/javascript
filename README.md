@@ -17,8 +17,10 @@ https://naliniraju.github.io/javascript/training/list.html
 https://naliniraju.github.io/javascript/training/table.html
 https://naliniraju.github.io/javascript/training/textformat.html
 
-https://naliniraju.github.io/javascript/training/this/this.html
-
+https://github.com/naliniraju/javascript/tree/master/views/BOMExample.html
+https://github.com/naliniraju/javascript/tree/master/views/arrayexamples.html
+https://github.com/naliniraju/javascript/tree/master/views/formvalidation.html
+https://github.com/naliniraju/javascript/tree/master/views/javascriptoop.html
 
 
 
