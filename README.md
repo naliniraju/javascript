@@ -20,7 +20,7 @@ https://naliniraju.github.io/javascript/training/textformat.html
 https://naliniraju.github.io/javascript/views/BOMExample.html
 https://naliniraju.github.io/javascript/views/arrayexamples.html
 https://naliniraju.github.io/javascript/views/formvalidation.html
-https://naliniraju.github.io/javascript/javascriptoop.html
+https://naliniraju.github.io/javascript/views/javascriptoop.html
 
 
 
