@@ -1,13 +1,13 @@
 class DataAccessService{
     getConnection(){
-        var database = openDatabase("learning","1.0,","test",1024);
+        var database = openDatabase("learning1","1.0,","test1",1024);
         console.log("Database Connection >> "+database);
         return database;
     }
 
     createTable(Connection){
         Connection.transaction(function(query){
-            query.executeSql('create table if not exists user(id unique,name,password,email)');
+            query.executeSql('create table if not exists user1(id unique,name,password,email)');
         });
     }
     insertData(connection){
