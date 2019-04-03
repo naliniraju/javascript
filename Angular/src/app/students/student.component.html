@@ -1,0 +1,50 @@
+
+
+
+
+<h3>{{name}}</h3><br>
+                
+{{""+10+20+30+40}}
+
+
+<div customcomponent></div>
+
+<button [disabled]='isDisabled'>Click Me to Move!!!</button>
+<button disabled={{isDisabled}}>Click Me to Move!!!</button>
+
+<br><br>
+
+<input type="text" id="inputTxt" value="Santhosh"/>
+
+<br>
+<br>
+Enter Your Name :: <input type="text" id="myText" [(ngModel)]='myname'/><br><br>
+Entered Details are :: {{myname}}
+
+<br>
+<br>
+
+<table>
+    <thead>
+        <tr><th [attr.colspan]='cspan'>Employee Details </th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Emp No : </td><td>{{empno}}</td></tr>
+        <tr><td>Emp Name : </td><td>{{empname | uppercase | studentpipe : gender}}</td></tr>
+        <tr><td>Emp Email : </td><td>{{email | lowercase}}</td></tr>
+        <tr><td>Emp Gender : </td><td>{{gender | uppercase}}</td></tr>
+        <tr><td>DOB :</td><td>{{dob | date : 'd/M/y'}}</td></tr>
+        <tr *ngIf='isHide'><td>Basic Salary : </td><td>{{salary | currency : 'USD' : true}}</td></tr>
+        <tr *ngIf='isHide'><td>Total Salary : </td><td>{{salary | calculate : hra  | currency : 'INR' : true}}</td></tr>
+        <tr *ngIf='isHide'><td>DOJ : </td><td>{{doj | date : 'fullDate'}}</td></tr>
+
+    </tbody>
+</table>
+
+<br>
+<button (click)="show()">{{isHide ? 'Hide' : 'Show '}} Details</button>
+<br>
+<button on-click="show()">{{isHide ? 'Hide' : 'Show '}} Details</button>
+
+
+
