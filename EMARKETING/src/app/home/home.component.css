@@ -1,0 +1,12 @@
+.main{
+    border:1px solid red !important;
+    margin-left: 18px !important;
+    margin-top:10px !important; 
+    padding-right: 20px !important;
+}
+.menu{
+    border:1px solid red;
+    margin-left: 18px;
+    margin-top:10px; 
+    padding-right: 10px;
+}

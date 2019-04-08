@@ -1,0 +1,19 @@
+[{
+    "coustmertid":1001,
+    "coustmer":"HYD",
+    "coustmerType":"Electronics",
+    "coustmerName":"Mobiles",
+    "coustmerOwner":"Sony Pvt.ltd"
+},{
+    "coustmerid":1002,
+    "coustmer":"MUM",
+    "coustmerType":"Electronics",
+    "coustmerName":"Television",
+    "coustmerOwner":"Sony Pvt.ltd"
+},{
+    "coustmerid":1003,
+    "coustmer":"BNL",
+    "coustmerType":"Electronics",
+    "coustmerName":"Smart Watches",
+    "coustmerOwner":"Sony Pvt.ltd"
+}]

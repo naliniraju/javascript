@@ -1,0 +1,10 @@
+{
+    "id":12345, 
+    "name":"Santhosh Kumar",
+    "desigination":"IT Professional",
+    "username":"GSKChary",
+    "password":"gsk@123",
+    "email" : "GSKChary@gmail.com",
+    "address":"Hyderabad",
+    "pincode":500081
+}

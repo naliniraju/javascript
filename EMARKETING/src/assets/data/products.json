@@ -1,0 +1,19 @@
+[{
+    "productid":1001,
+    "product":"Sony",
+    "productType":"Electronics",
+    "productName":"Mobiles",
+    "productOwner":"Sony Pvt.ltd"
+},{
+    "productid":1002,
+    "product":"Sony",
+    "productType":"Electronics",
+    "productName":"Television",
+    "productOwner":"Sony Pvt.ltd"
+},{
+    "productid":1003,
+    "product":"Sony",
+    "productType":"Electronics",
+    "productName":"Smart Watches",
+    "productOwner":"Sony Pvt.ltd"
+}]
